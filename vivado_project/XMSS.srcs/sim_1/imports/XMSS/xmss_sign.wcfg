@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xmss_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="params" />
+            <top_module name="sha_comp" />
+            <top_module name="sha_functions" />
+            <top_module name="wots_comp" />
+            <top_module name="wots_functions" />
+            <top_module name="xmss_components" />
+            <top_module name="xmss_functions" />
+            <top_module name="xmss_main_typedef" />
+            <top_module name="xmss_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="16780000001fs"></ZoomEndTime>
+      <Cursor1Time time="13001000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.heights_arr" type="array">
+      <obj_property name="ElementShortName">.heights_arr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">.heights_arr[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.offset" type="other">
+      <obj_property name="ElementShortName">.offset</obj_property>
+      <obj_property name="ObjectShortName">.offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.stack" type="array">
+      <obj_property name="ElementShortName">.stack[2:0][255:0]</obj_property>
+      <obj_property name="ObjectShortName">.stack[2:0][255:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
