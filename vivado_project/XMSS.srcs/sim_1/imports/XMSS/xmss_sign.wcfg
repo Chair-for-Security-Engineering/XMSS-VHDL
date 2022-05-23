@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xmss_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="params" />
+            <top_module name="sha_fast_comp" />
+            <top_module name="sha_functions" />
+            <top_module name="wots_comp" />
+            <top_module name="wots_functions" />
+            <top_module name="xmss_main_typedef" />
+            <top_module name="xmss_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9280fs"></ZoomStartTime>
+      <ZoomEndTime time="122069fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="103"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/d" type="array">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/q" type="array">
+      <obj_property name="ElementShortName">q</obj_property>
+      <obj_property name="ObjectShortName">q</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.ctr" type="other">
+      <obj_property name="ElementShortName">.ctr</obj_property>
+      <obj_property name="ObjectShortName">.ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.a" type="array">
+      <obj_property name="ElementShortName">.a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.b" type="array">
+      <obj_property name="ElementShortName">.b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.c" type="array">
+      <obj_property name="ElementShortName">.c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.d" type="array">
+      <obj_property name="ElementShortName">.d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.e" type="array">
+      <obj_property name="ElementShortName">.e[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.e[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.f" type="array">
+      <obj_property name="ElementShortName">.f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.g" type="array">
+      <obj_property name="ElementShortName">.g[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.g[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/r.h" type="array">
+      <obj_property name="ElementShortName">.h[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.h[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/w" type="array">
+      <obj_property name="ElementShortName">w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/t1" type="array">
+      <obj_property name="ElementShortName">t1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_bus/\HashCore(0)\/switch_sha_fast/SHA_FAST/sha_256/t2" type="array">
+      <obj_property name="ElementShortName">t2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t2[31:0]</obj_property>
+   </wvobject>
+</wave_config>

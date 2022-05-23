@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xmss_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="params" />
+            <top_module name="sha_comp" />
+            <top_module name="sha_functions" />
+            <top_module name="wots_comp" />
+            <top_module name="wots_functions" />
+            <top_module name="xmss_main_typedef" />
+            <top_module name="xmss_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="17240000001fs"></ZoomEndTime>
+      <Cursor1Time time="9001100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="65" />
+   <wave_markers>
+      <marker time="2147110100" label="" />
+      <marker time="9053385000" label="" />
+      <marker time="3090850000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/xmss_tb/uut/r_in.sk_seed" type="array">
+      <obj_property name="ElementShortName">.sk_seed[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.sk_seed[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/r_in.pub_seed" type="array">
+      <obj_property name="ElementShortName">.pub_seed[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.pub_seed[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/r_in.sk_prf" type="array">
+      <obj_property name="ElementShortName">.sk_prf[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.sk_prf[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/r.mlen" type="other">
+      <obj_property name="ElementShortName">.mlen</obj_property>
+      <obj_property name="ObjectShortName">.mlen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">xmss..state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/mode_select_l0" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mode_select_l0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_select_l0[1:0]</obj_property>
+      <obj_property name="label">mode L0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/mode_select_l1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mode_select_l1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_select_l1[1:0]</obj_property>
+      <obj_property name="label">mode L1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/mode_select_l2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mode_select_l2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_select_l2[1:0]</obj_property>
+      <obj_property name="label">mode L2</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider345">
+      <obj_property name="label">Keygen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/keygen_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">keygen.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/keygen_module/q.bram" type="array">
+      <obj_property name="ElementShortName">.bram</obj_property>
+      <obj_property name="ObjectShortName">.bram</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider346">
+      <obj_property name="label">Sign</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/sign_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">sign.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/sign_module/q.hash_message" type="array">
+      <obj_property name="ElementShortName">.hash_message</obj_property>
+      <obj_property name="ObjectShortName">.hash_message</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/sign_module/q.treehash" type="array">
+      <obj_property name="ElementShortName">.treehash</obj_property>
+      <obj_property name="ObjectShortName">.treehash</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider347">
+      <obj_property name="label">Verify</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">verify.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/r.index" type="array">
+      <obj_property name="ElementShortName">.index[1:0]</obj_property>
+      <obj_property name="ObjectShortName">.index[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/r.bram_state_b" type="other">
+      <obj_property name="ElementShortName">.bram_state_b</obj_property>
+      <obj_property name="ObjectShortName">.bram_state_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/q.valid" type="logic">
+      <obj_property name="ElementShortName">.valid</obj_property>
+      <obj_property name="ObjectShortName">.valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/q.done" type="logic">
+      <obj_property name="ElementShortName">.done</obj_property>
+      <obj_property name="ObjectShortName">.done</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider170">
+      <obj_property name="label">Compute Root</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/r.state" type="other">
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/q.thash.enable" type="logic">
+      <obj_property name="ElementShortName">.enable</obj_property>
+      <obj_property name="ObjectShortName">.enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/r.init" type="logic">
+      <obj_property name="ElementShortName">.init</obj_property>
+      <obj_property name="ObjectShortName">.init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/r.leaf_idx" type="array">
+      <obj_property name="ElementShortName">.leaf_idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">.leaf_idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/r.ctr" type="other">
+      <obj_property name="ElementShortName">.ctr</obj_property>
+      <obj_property name="ObjectShortName">.ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/d" type="array">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/q.root" type="array">
+      <obj_property name="ElementShortName">.root[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.root[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/verify_module/comproot/q.done" type="logic">
+      <obj_property name="ElementShortName">.done</obj_property>
+      <obj_property name="ObjectShortName">.done</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider380">
+      <obj_property name="label">Hash_message</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/d.module_input.enable" type="logic">
+      <obj_property name="ElementShortName">.enable</obj_property>
+      <obj_property name="ObjectShortName">.enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/d.module_input.index" type="array">
+      <obj_property name="ElementShortName">.index[1:0]</obj_property>
+      <obj_property name="ObjectShortName">.index[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">hm.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/r.ctr" type="other">
+      <obj_property name="ElementShortName">.ctr</obj_property>
+      <obj_property name="ObjectShortName">.ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/q.module_output.done" type="logic">
+      <obj_property name="ElementShortName">.done</obj_property>
+      <obj_property name="ObjectShortName">.done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash_message_module/q.bram" type="array">
+      <obj_property name="ElementShortName">.bram</obj_property>
+      <obj_property name="ObjectShortName">.bram</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider331">
+      <obj_property name="label">Treehash</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">treehash.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/d.module_input.leaf_idx" type="other">
+      <obj_property name="ElementShortName">.leaf_idx</obj_property>
+      <obj_property name="ObjectShortName">.leaf_idx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.heights_arr" type="array">
+      <obj_property name="ElementShortName">.heights_arr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">.heights_arr[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.offset" type="other">
+      <obj_property name="ElementShortName">.offset</obj_property>
+      <obj_property name="ObjectShortName">.offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/treehash_module/r.idx" type="array">
+      <obj_property name="ElementShortName">.idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">.idx[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider330">
+      <obj_property name="label">WOTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">wots.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/wots_core/r.state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+      <obj_property name="label">core.state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/wots_core/r.ctr" type="other">
+      <obj_property name="ElementShortName">.ctr</obj_property>
+      <obj_property name="ObjectShortName">.ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/wots_core/msg_and_checksum" type="array">
+      <obj_property name="ElementShortName">msg_and_checksum[66:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">msg_and_checksum[66:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/d.pub_seed" type="array">
+      <obj_property name="ElementShortName">.pub_seed[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.pub_seed[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider401">
+      <obj_property name="label">WOTS Chain</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider391">
+      <obj_property name="label">Privkey Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/wots_module/privkey_gen/d.input" type="array">
+      <obj_property name="ElementShortName">.input[255:0]</obj_property>
+      <obj_property name="ObjectShortName">.input[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider172">
+      <obj_property name="label">LTREE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/ltree/d" type="array">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/ltree/q" type="array">
+      <obj_property name="ElementShortName">q</obj_property>
+      <obj_property name="ObjectShortName">q</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/ltree/r_in.state" type="other">
+      <obj_property name="ElementShortName">.state</obj_property>
+      <obj_property name="ObjectShortName">.state</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider181">
+      <obj_property name="label">Thash</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/thash_module/d" type="array">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/thash_module/q" type="array">
+      <obj_property name="ElementShortName">q</obj_property>
+      <obj_property name="ObjectShortName">q</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider328">
+      <obj_property name="label">Shared</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/bram" type="array">
+      <obj_property name="ElementShortName">bram</obj_property>
+      <obj_property name="ObjectShortName">bram</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/xmss_tb/uut/bram.a" type="array">
+         <obj_property name="ElementShortName">.a</obj_property>
+         <obj_property name="ObjectShortName">.a</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/xmss_tb/uut/bram.a.EN" type="logic">
+            <obj_property name="ElementShortName">.EN</obj_property>
+            <obj_property name="ObjectShortName">.EN</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.a.WEN" type="logic">
+            <obj_property name="ElementShortName">.WEN</obj_property>
+            <obj_property name="ObjectShortName">.WEN</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.a.ADDR" type="array">
+            <obj_property name="ElementShortName">.ADDR[10:0]</obj_property>
+            <obj_property name="ObjectShortName">.ADDR[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.a.DIN" type="array">
+            <obj_property name="ElementShortName">.DIN[255:0]</obj_property>
+            <obj_property name="ObjectShortName">.DIN[255:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/xmss_tb/uut/bram.b" type="array">
+         <obj_property name="ElementShortName">.b</obj_property>
+         <obj_property name="ObjectShortName">.b</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/xmss_tb/uut/bram.b.EN" type="logic">
+            <obj_property name="ElementShortName">.EN</obj_property>
+            <obj_property name="ObjectShortName">.EN</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.b.WEN" type="logic">
+            <obj_property name="ElementShortName">.WEN</obj_property>
+            <obj_property name="ObjectShortName">.WEN</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.b.ADDR" type="array">
+            <obj_property name="ElementShortName">.ADDR[10:0]</obj_property>
+            <obj_property name="ObjectShortName">.ADDR[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/xmss_tb/uut/bram.b.DIN" type="array">
+            <obj_property name="ElementShortName">.DIN[255:0]</obj_property>
+            <obj_property name="ObjectShortName">.DIN[255:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/modules.bram" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.bram</obj_property>
+      <obj_property name="ObjectShortName">.bram</obj_property>
+      <obj_property name="label">modules.bram</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/modules.hash" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">.hash</obj_property>
+      <obj_property name="ObjectShortName">.hash</obj_property>
+      <obj_property name="label">.hash_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/uut/hash" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">hash</obj_property>
+      <obj_property name="ObjectShortName">hash</obj_property>
+      <obj_property name="label">hash_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/xmss_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+</wave_config>
